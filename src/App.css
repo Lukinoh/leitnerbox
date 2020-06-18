@@ -1,3 +1,39 @@
 .App {
 
 }
+
+.App-Table {
+    width: 725px;
+}
+
+.App-Table .ms-DetailsRow-cell {
+    align-self: center;
+}
+
+.App-Input {
+    width: 300px;
+}
+
+.App-Input-Margin {
+    margin: 5px;
+}
+
+.App-Input-Option {
+    display: flex;
+}
+
+.Table-Level-Cell {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.Table-Date-Cell-Other {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.Table-Date-Cell-Today {
+    font-weight: bold;
+    font-size: 20px;
+    white-space: nowrap;
+}
