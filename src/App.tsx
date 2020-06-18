@@ -5,13 +5,11 @@ import {
   DayOfWeek,
   DetailsList,
   DetailsListLayoutMode,
-  IColumn,
   SelectionMode,
   SpinButton,
-  Text,
-  Stack,
-  IStackTokens,
+  Text
 } from '@fluentui/react';
+import type {IColumn} from '@fluentui/react';
 import './core/DateGenerator';
 import { DateInfo, getDateInfos } from './core/DateGenerator';
 import { DateCell } from './components/DateCell';
